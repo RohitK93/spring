@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rk</groupId>
-	<artifactId>01_spring_tightly_couple</artifactId>
+	<artifactId>02_spring_loose_couple</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>01_spring</name>
 	<description>Demo project for Spring Boot</description>
