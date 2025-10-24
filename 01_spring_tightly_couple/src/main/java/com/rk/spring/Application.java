@@ -16,7 +16,7 @@ public class Application {
 		MarioGame game = new MarioGame();
 		SuperContraGame superContraGame = new SuperContraGame(); 
 		
-//		This is tightly coupled to single game
+//		GameRunner is tightly coupled to single game 
 //		GameRunner runner = new GameRunner(game);
 		GameRunner runner = new GameRunner(superContraGame);
 		runner.run();
