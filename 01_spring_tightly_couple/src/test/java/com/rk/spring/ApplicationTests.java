@@ -1,4 +1,4 @@
-package com.rk.__spring;
+package com.rk.spring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
