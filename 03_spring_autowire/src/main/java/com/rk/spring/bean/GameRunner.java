@@ -6,17 +6,29 @@ import org.springframework.stereotype.Component;
 @Component
 public class GameRunner {
 	
+	/**
+	 * Field injection
+	 */
 	/*
-	 * 
 	 * @Autowired private GamingConsole game;
 	 */
 	
 	
 	private GamingConsole game;
 	
+	/**
+	 * Constructor injection
+	 */
+	/*
+	 * @Autowired public GameRunner(GamingConsole game) { this.game = game; }
+	 */
+	
+	/**
+	 * setter injection
+	 */
 	@Autowired
-	public GameRunner(GamingConsole game) { 
-		this.game = game; 
+	public void setGame(GamingConsole game) {
+		this.game = game;
 	}
 
 	public void run() {
@@ -25,5 +37,4 @@ public class GameRunner {
 		game.left();
 		game.right();
 	}
-	
 }
