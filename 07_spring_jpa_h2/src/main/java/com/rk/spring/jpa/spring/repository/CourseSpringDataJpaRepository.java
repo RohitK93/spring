@@ -14,8 +14,8 @@ public interface CourseSpringDataJpaRepository extends JpaRepository<Course1, Lo
 	
 	public List<Course1> findByAuthor(String author);
 	
-	
-	@Query(nativeQuery = true, value = "select * from Course1 where id= :id")
+	@NativeQuery(value = "select * from Course1 where id= :id")
+//	@Query(nativeQuery = true, value = "select * from Course1 where id= :id")
 	public List<Course1> getCourseDataById(long id);
 	
 	@Query(nativeQuery = true, value = "select * from Course1 where id= :id")
