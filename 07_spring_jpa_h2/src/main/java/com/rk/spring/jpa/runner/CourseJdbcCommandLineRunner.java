@@ -1,4 +1,4 @@
-package com.rk.spring.jpa.jdbc;
+package com.rk.spring.jpa.runner;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

@@ -13,7 +13,8 @@ import jakarta.transaction.Transactional;
 @Transactional
 public class CourseJpaRepository {
 	
-	@PersistenceContext
+//	@PersistenceContext
+	@Autowired
 	private EntityManager entityManager;
 	
 	public void insertCourse1(Course1 course1) {
